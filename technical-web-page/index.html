@@ -29,17 +29,18 @@
         </header>
         <div id="nav_link_container">
             <a href="#intro" class="nav_link">Introduction</a>
-            <a href="#setup" class="nav_link">Setup</a>
-            <a href="#html" class="nav_link">HTML</a>
+            <a href="#setup" class="nav_link">Getting Started</a>
+            <a href="#first_code" class="nav_link">First Code</a>
             <a href="#css" class="nav_link">CSS</a>
-            <a href="#javascript" class="nav_link">JavaScript</a>
-            <a href="#building_projects" class="nav_link">Building Projects</a>
+            <a href="#frameworks" class="nav_link">Frameworks</a>
+            <a href="#conclusion" class="nav_link">Conclusion</a>
         </div>
     </nav>
 
 
     <main id="main_doc">
         <section id="intro">
+            <h1>JavaScript Article</h1>
             <h2>Introduction</h2>
             <p>JavaScript is a client-side scripting language, which means it runs on the user's web browser, as opposed
                 to running on the server-side like many other programming languages. This allows for fast and responsive
@@ -57,7 +58,8 @@
                 follow to begin learning JavaScript:</p>
             <p>To get started you need to:
             <ul>
-                <li>Set up a development environment: To write and run JavaScript code, you'll need a development environment</li>
+                <li>Set up a development environment: To write and run JavaScript code, you'll need a development
+                    environment</li>
                 <li>Learn the basics</li>
                 <li>Understand the DOM</li>
                 <li>Practice coding...</li>
@@ -66,7 +68,6 @@
             <p>Examples of prerequisites include:
             <ul>
                 <li>Sublime Text, Visual Studio Code, Atom</li>
-                <li></li>
                 <li>Browser (chrome, opera ...)</li>
             </ul>
             </p>
@@ -75,18 +76,18 @@
 
 
         </section>
-        <section class="main_sec" id="html">
-            <h2>HTML</h2>
-            <p>HTML (Hypertext Markup Language) is the foundation of web development. It’s a markup language used to
-                define the
-                structure and content of a web page. HTML consists of elements that are used to create headings,
-                paragraphs, images,
-                links, and more.
+        <section class="main_sec" id="first_code">
+            <h2>My First JavaScript Code:</h2>
+            <p>The code likely consists of an HTML button element and a JavaScript function that is triggered when the
+                button is clicked. The function likely uses JavaScript's built-in Date object to get the current date
+                and time, and then displays it on the web page.
             </p>
             <code>
-        <h3>Here is an example of an HTML element:</h3>
-        <br><p><h1>&lt;h1&gt;This is a Heading&lt;/h1&gt;</h1></p>
-        
+        <h3>Here is an example of an JavaScript code that displays time:</h3>
+        <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+            <p id="demo"></p>       
       </code>
 
         </section>
@@ -101,49 +102,41 @@
         Here is an example of a CSS rule:</h3>
         <br><p>
         h1 {
-      font-size: 20px;
-      color: #333333;
-      font-family: sans-serif;
-      }
+            font-size: 20px;
+            color: #333333;
+            font-family: sans-serif;
+            }
       </p>
     </code>
 
         </section>
-        <section class="main_sec" id="javascript">
-            <h2>JavaScript</h2>
-            <p>JavaScript is the programming language used to add interactivity to web pages. JavaScript can be used to
-                create dynamic
-                content, provide feedback, and control the behavior of web pages.
+        <section class="main_sec" id="frameworks">
+            <h2>JavaScript Frameworks</h2>
+            <p>JavaScript has multiple libraries and frameworks that are available and provide developers with
+                pre-written JS code to use for routine programming features and tasks
             </p>
             <code>
-        <h3>Here is an example of a JavaScript statement:</h3>
-      <br><p>alert("Hello World!");</p>
+        <h3>Here is an example of a JavaScript frameworks:</h3>
+         <ul>
+            <li>Angular.js</li>
+            <li>React</li>
+            <li>Vue.js</li>
+         </ul>
     </code>
 
         </section>
-        <section class="main_sec" id="building_projects">
-            <h2>Building Projects</h2>
-            <p>Once you’ve learned the basics of HTML, CSS, and JavaScript, you can start building projects. You can
-                create websites,
-                web applications, and more.</p>
-            <p>These are just the basics of web development. There are many more technologies and techniques used in web
-                development.
-                As you learn more, you’ll be able to create more complex and powerful projects. Here is a list of
-                popular web development frameworks and libraries:
+        <section class="main_sec" id="Conclusion">
+            <h2>Conclusion</h2>
+            <p> JavaScript is a wonderful technology to use on the web. It is not that hard to learn and it is very
+                versatile. It plays nicely with other web technologies — such as HTML and CSS — and can even interact
+                with plugins such as Flash.</p>
+            <p>I've listed some websites that I think a beginner should start learning from down below:</p>
             <ul>
-                <li>React</li>
-                <li>Angular</li>
-                <li>Vue</li>
-                <li>jQuery</li>
-                <li>Node.js</li>
-                <li>Bootstrap</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>Socket.io</li>
+                <li>W3schools</li>
+                <li>javatpoint</li>
+                <li>mdndocs</li>
             </ul>
-            </p>
         </section>
-
     </main>
 </body>
 
