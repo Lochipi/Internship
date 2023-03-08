@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* ||||||||||||||||||||| Add CSS code under this line |||||||||||||||||||| */
+  
+  
+  /* ******screen size 660 - 800px****** */
+  
+  body{
+    background-color: rgb(219, 214, 241);
+    font-family: 'Roboto', sans-serif;
+  }
+  #navbar{
+    background-color: rgb(65, 63, 74);
+    padding-top: 10px;
+    color: white; 
+  }
+
+  header i{
+    font-size: 30px;
+    color: greenyellow;
+  }
+  
+  li{
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 55px;
+    padding-bottom: 10px;
+ 
+  }
+  
+  code{
+    background-color: rgb(38, 94, 174)	;
+    color: whitesmoke;
+    width: 100%;
+    height: 120px;
+    display: block;
+    padding: 20px;
+  }
+  
+  code h3{
+    text-decoration: underline;
+  }
+  
+  header{
+    text-align: center;
+  }
+  
+  header h1{
+    padding: 20px 10px;
+  }
+  
+  #nav_link_container{
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .nav_link{
+    padding: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-right: solid 1px grey;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav_link:last-child{
+    border: none;
+  }
+  
+  main{
+    margin-top: 50px;
+  }
+  
+  main section{
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+  
+  p{
+    margin-bottom: 10px;
+  }
+  
+  main h2{
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width:800px) {
+    
+    #navbar{
+      padding-top:30px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 25%;
+      height: 100%;
+      border-right: 1px solid rgb(115, 115, 178);
+  }
+  
+  main{
+    margin-left: 28%;
+  }
+  
+  #nav_link_container{
+    flex-direction: column;
+    border: none;
+  
+  }
+  .nav_link{
+    padding: 10px 20px;
+    border-top: 2px solid rgb(120, 114, 159);
+    border-right: none;
+  }
+  
+  .nav_link:last-child{
+    border-top: 2px solid rgb(120, 114, 159);
+  }
+  
+  }
+  
+  @media screen and (max-width:660px){
+  
+  
+  
+  .nav_link{
+  flex: 1;
+  border-bottom: solid 2px grey;
+  }
+  
+  #nav_link_container{
+  flex-wrap: wrap;
+  }
+  code{
+  height: 100%
+  }
+  
+  }
